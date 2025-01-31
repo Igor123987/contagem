@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom, #e2d6d7, #941dc4);
+    color: rgb(155, 4, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 182, 193, 0.5);
+    max-width: 500px;
+    width: 90%;
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.time-box {
+    background: rgba(255, 255, 255, 0.25);
+    padding: 15px;
+    border-radius: 15px;
+    width: 90px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.time-box:hover {
+    transform: scale(1.1);
+}
+
+.time-box span {
+    font-size: 2em;
+    font-weight: bold;
+    display: block;
+}
+
+p {
+    font-size: 1em;
+    margin: 5px 0 0;
+}
+
+#message-box {
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Responsividade para celulares */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    #countdown {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .time-box {
+        width: 70px;
+        padding: 10px;
+    }
+
+    .time-box span {
+        font-size: 1.8em;
+    }
+
+    #message-box {
+        font-size: 1em;
+        padding: 10px;
+    }
+}
+
+/* Animação para suavidade */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
