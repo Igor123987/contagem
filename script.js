@@ -5,7 +5,7 @@ const targetDate = new Date("February 17, 2025 00:00:00").getTime();
 const loveMessages = {
     "Jan 31 2025": "A contagem regressiva começou! Mal posso esperar para te ver! 💖",
     "Feb 1 2025": "Fevereiro chegou e com ele, nosso amor cada dia mais forte! 💕",
-    "Feb 2 2025": "Faltam poucos dias para o momento mais esperado do ano! ✨",
+    "Feb 2 2025": "Faltam poucos dias para o momento mais esperado do mês! ✨",
     "Feb 3 2025": "O tempo voa, mas meu amor por você só cresce! 🌹",
     "Feb 4 2025": "Duas semanas! Cada dia me faz te amar ainda mais. 💞",
     "Feb 5 2025": "Você é meu porto seguro, e logo estaremos juntinhos. 🥰",
@@ -20,7 +20,7 @@ const loveMessages = {
     "Feb 14 2025": "Hoje é Dia dos Namorados em alguns lugares, mas todo dia é nosso dia! 💕",
     "Feb 15 2025": "Três dias... O coração já não aguenta de tanta expectativa! ✨",
     "Feb 16 2025": "Amanhã é o último dia de espera! Mal posso dormir de ansiedade! 🌟",
-    "Feb 17 2025": "CHEGOU O DIA! Finalmente, estamos juntos de novo! Te amo demais! 💖"
+    "Feb 17 2025": "CHEGOU O DIA! Finalmente, estares juntos de novo! Te amo demais! 💖"
 };
 
 // Atualiza a contagem regressiva
