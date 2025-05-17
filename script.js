@@ -1,5 +1,5 @@
 // Data final da contagem regressiva
-const targetDate = new Date("February 17, 2025 00:00:00").getTime();
+const targetDate = new Date("June 4, 2025 00:00:00").getTime();
 
 // Mensagens de amor diárias
 const loveMessages = {
